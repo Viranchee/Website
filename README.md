@@ -4,5 +4,5 @@ TODO
 
 - [x] Svelte
 - [x] Typescript
-- [ ] Tailwind
+- [x] Tailwind
 - [x] Cloudflare Wrangler
