@@ -9,6 +9,7 @@ TODO
 - [x] Typescript
 - [x] Tailwind
 - [x] Cloudflare Wrangler
+- [ ] Github Actions Deploy
 
 ### Website
 
