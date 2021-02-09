@@ -43,21 +43,21 @@ function serve() {
 export default {
   input: 'src/main.ts',
   output: {
-    sourcemap: false,
+    sourcemap: !production,
     format: 'iife',
     name: 'app',
     file: 'public/build/bundle.js'
   },
   plugins: [
     svelte({
-      preprocess: sveltePreprocess({ sourceMap: false }),
+      preprocess: sveltePreprocess({ sourceMap: !production }),
       compilerOptions: {
         // enable run-time checks when not in production
         dev: !production
       },
 
       preprocess: sveltePreprocess({
-        sourceMap: false,
+        sourceMap: !production,
         postcss: {
           plugins: [
             require("tailwindcss"),
@@ -82,7 +82,7 @@ export default {
     }),
     commonjs(),
     typescript({
-      sourceMap: false,
+      sourceMap: !production,
       inlineSources: !production,
       removeComments: production,
     }),
