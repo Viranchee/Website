@@ -9,7 +9,9 @@ TODO
 - [x] Typescript
 - [x] Tailwind
 - [x] Cloudflare Wrangler
-- [ ] Github Actions Deploy
+- [x] Github Actions Deploy
+- [x] Reduce size of TailwindCSS
+- [ ] Remove Source Files present at Production
 
 ### Website
 

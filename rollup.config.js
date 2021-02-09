@@ -82,8 +82,9 @@ export default {
     }),
     commonjs(),
     typescript({
-      sourceMap: !production,
-      inlineSources: !production
+      sourceMap: true,
+      inlineSources: !production,
+      removeComments: production,
     }),
 
     // In dev mode, call `npm run start` once
