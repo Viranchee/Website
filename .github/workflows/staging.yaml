@@ -1,4 +1,4 @@
-name: TestPR
+name: Staging
 
 on:
   pull_request:
@@ -7,7 +7,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    name: TestMyPR
+    name: Staging
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
@@ -20,4 +20,3 @@ jobs:
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           environment: 'staging'
-

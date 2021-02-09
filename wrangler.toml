@@ -4,15 +4,15 @@ account_id = "814334ab66c619c9517a2d66d47b1164"
 workers_dev = true
 route = ""
 zone_id = ""
-webpack_config = "./workers-site/webpack.config.js"
+# webpack_config = "./workers-site/webpack.config.js"
 
 [site]
 bucket = "./public"
 entry-point = "workers-site"
 
 [env.staging]
-name = "website-staging"
+name = "staging"
 route = "staging.viranchee.com/*"
 
-[env.production]
-name = "website"
+# [env.production]
+# name = "website"
