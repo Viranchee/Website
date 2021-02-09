@@ -2,5 +2,15 @@
   "extends": "@tsconfig/svelte/tsconfig.json",
 
   "include": ["src/**/*"],
-  "exclude": ["node_modules/*", "__sapper__/*", "public/*"]
+  "exclude": ["node_modules/*", "__sapper__/*", "public/*"],
+  
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ESNext",
+    "removeComments": true,
+    "sourceMap": true,
+    
+    "lib": ["DOM", "ESNext"],
+  },
+  
 }
