@@ -11,6 +11,7 @@ TODO
 - [x] Cloudflare Wrangler
 - [x] Github Actions Deploy
 - [x] Reduce size of TailwindCSS
+- [x] Add Webpack to Workers
 - [ ] Remove Source Files present at Production
 
 ### Website
