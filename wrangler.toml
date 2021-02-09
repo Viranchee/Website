@@ -14,6 +14,3 @@ entry-point = "workers-site"
 name = "staging"
 workers_dev = true
 route = "staging.viranchee.com/*"
-
-[env.production]
-# name = "website"
