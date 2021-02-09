@@ -1,1 +1,1 @@
-module.exports = { target: "webworker", entry: "workers-site/index.js", mode: "production" }
+module.exports = { context: __dirname, target: "webworker", entry: "./index.js", mode: "production" }
